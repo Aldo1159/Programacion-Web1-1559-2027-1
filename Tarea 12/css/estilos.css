@@ -1,0 +1,69 @@
+html{
+    font-size: 10px;
+}
+body{
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Orden para los estilos de los estados de un enlace(LVFHA) */
+a:link{
+    color: aqua;
+    text-decoration: underline;
+}
+a:visited{
+    color:green ;
+    text-decoration: line-through;
+}
+a:focus{
+    background-color: red;
+    color: black;
+    border: 2px solid blue;
+}
+a:hover{
+    font-size:20px;
+    color: black;
+    background-color: rgb(39, 161, 227);
+    border: 2px solid red;
+}
+a:active{
+    color: black;
+    background-color: rgb(20, 75, 65);
+    font-size: 75px;
+}
+#Encabezado{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+#Encabezado h1{
+    text-shadow: 2px 2px 2px rebeccapurple;
+    text-align: center;
+      font-size:3em;
+}
+.Contenedor{
+    border: 10px dotted gold;
+    background-color: black;
+    color: white;
+}
+.Enlaces{
+  text-shadow: 2px 2px 2px rebeccapurple;
+    text-align: left;
+}
+.Enlaces p{
+    text-align: justify;
+}
+.Enlaces ul{
+    border: 2px solid rgb(120, 28, 60);
+    padding-left: 0%;
+}
+.Enlaces ul li{
+    margin: 8px;
+    border: 3px solid rgb(20, 30, 100);
+    /* disc, decimal, circle, square, loer-roman , louer-alpha */
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+#Encabezado p{
+     font-size: 2em;
+}
