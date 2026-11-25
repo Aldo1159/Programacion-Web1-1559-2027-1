@@ -1,0 +1,44 @@
+html {
+    font-size: 11px;
+}
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to top, blue, rgb(4, 4, 60));
+    background-repeat: no-repeat;
+    color: brown;
+}
+#encabezado {
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border: 0.2px solid pink;
+}
+#encabezado h1 {
+    text-align: center;
+    text-shadow: 0.3rem 0.7rem 0.3rem rgb(20, 90, 170);
+}
+.contenedor-tabla {
+    border: 0.2rem solid green;
+    width: 35rem;
+    overflow-x: scroll;
+}
+.tabla-alumnos {
+    border: 0.2rem solid blue;
+    border-collapse: separate;
+    text-align: center;
+    width: 50rem;
+}
+.tabla-alumnos th, .tabla-alumnos td {
+    border: 0.2rem solid purple;
+    padding: 0.2rem;
+}
+.tabla-alumnos tr:nth-child(odd) {
+    background-color: yellow;
+    color: black;
+}
+.tabla-alumnos tr:hover {
+    background-color: gray;
+    color: red;
+    font-size: 20px;
+}
